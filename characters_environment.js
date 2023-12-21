@@ -596,6 +596,8 @@ function scores(character){
   
   text("Pontos: "+round(gameConfig.scores),20,40);
   text("Vidas: "+character.liveNumber,20,80);
+  text("Moedas: "+round(character.coins),20,125);
+ 
 
   if(mario.live==false && mario.liveNumber!=0){
     fill(0,0,0,150);
@@ -633,5 +635,6 @@ function upSide(obj){ return obj.position.y-(obj.height/2);}
 function downSide(obj){ return obj.position.y+(obj.height/2);}
 
 /*=====  Fim dos Debugs  ======*/
+
 
 
