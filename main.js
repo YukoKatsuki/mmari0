@@ -11,6 +11,7 @@ function preload() {
 	mario_kick.setVolume(0.05);
 	mario_die.setVolume(0.05);
 	mario_coin.setVolume(0.05);
+	mario_gameover.setVolume(0.05);
 	setSprites();
 	MarioAnimation();
 }
